@@ -21,4 +21,4 @@ To use the application, simply type the name of the Pokemon you want to search f
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/visionthex/pokedex/blob/main/LICENSE)
