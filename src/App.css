@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  background-color: #ca2e35;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #000;
+  background-color: #dedede;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.6); /* Adjust the last value (0.5) to control the fade */
+}
+
+.container img {
+  max-width: 100px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+}
+
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Add some space between the rows */
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.tableBody {
+  background-color: #242424;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  font-family: Arial, sans-serif; /* Use a nice, readable font */
+  font-size: 16px; /* Adjust the font size */
+  line-height: 1.5; /* Adjust the line height for better readability */
+  color: #ffff; /* Use a dark color for the text */
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.pokemon-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-gap: 30px;
+  align-items: start;
+  padding: 40px;
+  border: 3px solid #000000;
+  border-radius: 20px;
+}
+
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid #030000;
+  border-radius: 10px;
+  background-color: #54a8f5;
+  box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.6);
+  width: 200px; /* Set a specific width */
+  transition: transform 0.2s;
+}
+
+.pokemon-card:hover {
+  transform: rotate(5deg);
+}
